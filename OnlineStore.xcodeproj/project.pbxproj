@@ -8,17 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		192B49D42C0A6C2500C1BCA8 /* OnlineStoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192B49D32C0A6C2500C1BCA8 /* OnlineStoreApp.swift */; };
-		192B49D62C0A6C2500C1BCA8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192B49D52C0A6C2500C1BCA8 /* ContentView.swift */; };
 		192B49D82C0A6C2600C1BCA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 192B49D72C0A6C2600C1BCA8 /* Assets.xcassets */; };
 		192B49DB2C0A6C2600C1BCA8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 192B49DA2C0A6C2600C1BCA8 /* Preview Assets.xcassets */; };
+		192B49E62C0A6D1400C1BCA8 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 192B49E32C0A6D1400C1BCA8 /* Montserrat-Regular.ttf */; };
+		192B49E72C0A6D1400C1BCA8 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 192B49E42C0A6D1400C1BCA8 /* Montserrat-Bold.ttf */; };
+		192B49E82C0A6D1400C1BCA8 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 192B49E52C0A6D1400C1BCA8 /* Montserrat-Thin.ttf */; };
+		192B49ED2C0A6EF200C1BCA8 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192B49EC2C0A6EF200C1BCA8 /* MainView.swift */; };
+		192B49F02C0A700A00C1BCA8 /* TabBarItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192B49EF2C0A700A00C1BCA8 /* TabBarItems.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		192B49D02C0A6C2500C1BCA8 /* OnlineStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnlineStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		192B49D32C0A6C2500C1BCA8 /* OnlineStoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineStoreApp.swift; sourceTree = "<group>"; };
-		192B49D52C0A6C2500C1BCA8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		192B49D72C0A6C2600C1BCA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		192B49DA2C0A6C2600C1BCA8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		192B49E12C0A6CAE00C1BCA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		192B49E32C0A6D1400C1BCA8 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		192B49E42C0A6D1400C1BCA8 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		192B49E52C0A6D1400C1BCA8 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		192B49EC2C0A6EF200C1BCA8 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		192B49EF2C0A700A00C1BCA8 /* TabBarItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItems.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +60,11 @@
 		192B49D22C0A6C2500C1BCA8 /* OnlineStore */ = {
 			isa = PBXGroup;
 			children = (
+				192B49E12C0A6CAE00C1BCA8 /* Info.plist */,
 				192B49D32C0A6C2500C1BCA8 /* OnlineStoreApp.swift */,
-				192B49D52C0A6C2500C1BCA8 /* ContentView.swift */,
+				192B49EE2C0A6FF400C1BCA8 /* Models */,
+				192B49E92C0A6D5100C1BCA8 /* Views */,
+				192B49E22C0A6CB900C1BCA8 /* Font */,
 				192B49D72C0A6C2600C1BCA8 /* Assets.xcassets */,
 				192B49D92C0A6C2600C1BCA8 /* Preview Content */,
 			);
@@ -65,6 +77,32 @@
 				192B49DA2C0A6C2600C1BCA8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		192B49E22C0A6CB900C1BCA8 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				192B49E42C0A6D1400C1BCA8 /* Montserrat-Bold.ttf */,
+				192B49E32C0A6D1400C1BCA8 /* Montserrat-Regular.ttf */,
+				192B49E52C0A6D1400C1BCA8 /* Montserrat-Thin.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		192B49E92C0A6D5100C1BCA8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				192B49EC2C0A6EF200C1BCA8 /* MainView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		192B49EE2C0A6FF400C1BCA8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				192B49EF2C0A700A00C1BCA8 /* TabBarItems.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +163,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				192B49E82C0A6D1400C1BCA8 /* Montserrat-Thin.ttf in Resources */,
+				192B49E72C0A6D1400C1BCA8 /* Montserrat-Bold.ttf in Resources */,
+				192B49E62C0A6D1400C1BCA8 /* Montserrat-Regular.ttf in Resources */,
 				192B49DB2C0A6C2600C1BCA8 /* Preview Assets.xcassets in Resources */,
 				192B49D82C0A6C2600C1BCA8 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +178,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				192B49D62C0A6C2500C1BCA8 /* ContentView.swift in Sources */,
 				192B49D42C0A6C2500C1BCA8 /* OnlineStoreApp.swift in Sources */,
+				192B49ED2C0A6EF200C1BCA8 /* MainView.swift in Sources */,
+				192B49F02C0A700A00C1BCA8 /* TabBarItems.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,11 +317,14 @@
 				DEVELOPMENT_TEAM = SJRUCMU4G5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OnlineStore/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,11 +349,14 @@
 				DEVELOPMENT_TEAM = SJRUCMU4G5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OnlineStore/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
